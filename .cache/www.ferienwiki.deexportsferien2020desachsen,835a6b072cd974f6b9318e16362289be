@@ -1,0 +1,68 @@
+status: 200
+content-type: text/calendar; charset=utf-8
+connection: keep-alive
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000, max-age=15768000
+x-xss-protection: 1; mode=block
+x-request-id: d55e2fa5-ed9c-4a10-b949-9ec05f2f4a7a
+content-disposition: attachment; filename="ferien_sachsen_2020.ics"
+etag: W/"e28417c7195d6eadbc10aa453bab3bef"
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+date: Thu, 01 Aug 2019 13:23:11 GMT
+content-location: https://www.ferienwiki.de/exports/ferien/2020/de/sachsen
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20190801T132311Z
+UID:868b575c-a940-499b-86ac-946a8a0c09cf
+DTSTART;VALUE=DATE:20200210
+DTEND;VALUE=DATE:20200223
+DESCRIPTION:Winterferien 2020 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Winterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132311Z
+UID:38059ebd-dc26-4a28-87b5-df6bd17de535
+DTSTART;VALUE=DATE:20200410
+DTEND;VALUE=DATE:20200419
+DESCRIPTION:Osterferien 2020 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Osterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132311Z
+UID:c951d951-f614-485f-accf-87c20d67cd73
+DTSTART;VALUE=DATE:20200522
+DTEND;VALUE=DATE:20200523
+DESCRIPTION:Pfingstferien 2020 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Pfingstferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132311Z
+UID:556b98ad-025b-4a4a-addc-3c5d00568316
+DTSTART;VALUE=DATE:20200720
+DTEND;VALUE=DATE:20200829
+DESCRIPTION:Sommerferien 2020 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Sommerferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132311Z
+UID:3d37aec9-6170-40dc-8b5a-8979eba0f1e5
+DTSTART;VALUE=DATE:20201019
+DTEND;VALUE=DATE:20201101
+DESCRIPTION:Herbstferien 2020 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Herbstferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132311Z
+UID:0dfd6d9d-b560-4cf0-92bb-aa253f165dee
+DTSTART;VALUE=DATE:20201221
+DTEND;VALUE=DATE:20210103
+DESCRIPTION:Weihnachtsferien 2020 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Weihnachtsferien
+END:VEVENT
+END:VCALENDAR

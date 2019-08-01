@@ -1,0 +1,68 @@
+status: 200
+content-type: text/calendar; charset=utf-8
+connection: keep-alive
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000, max-age=15768000
+x-xss-protection: 1; mode=block
+x-request-id: 10266f35-ee72-45dd-8f24-dfc5ffa0b6a6
+content-disposition: attachment; filename="ferien_sachsen_2019.ics"
+etag: W/"85ccbec1b76827f55065c0c22fd47b50"
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+date: Thu, 01 Aug 2019 13:21:00 GMT
+content-location: https://www.ferienwiki.de/exports/ferien/2019/de/sachsen
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20190801T132100Z
+UID:f31a3022-503c-49ec-adc3-61bd560d4fb9
+DTSTART;VALUE=DATE:20190218
+DTEND;VALUE=DATE:20190303
+DESCRIPTION:Winterferien 2019 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Winterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132100Z
+UID:ea71fb3b-b1d0-4128-98aa-dd03a9b4bd23
+DTSTART;VALUE=DATE:20190419
+DTEND;VALUE=DATE:20190427
+DESCRIPTION:Osterferien 2019 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Osterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132100Z
+UID:6815d0d0-224c-4b84-b052-d03c311d2be3
+DTSTART;VALUE=DATE:20190531
+DTEND;VALUE=DATE:20190601
+DESCRIPTION:Pfingstferien 2019 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Pfingstferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132100Z
+UID:e45a1cef-6ffd-4c87-b469-44eede5320d1
+DTSTART;VALUE=DATE:20190708
+DTEND;VALUE=DATE:20190817
+DESCRIPTION:Sommerferien 2019 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Sommerferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132100Z
+UID:8fa97b80-5999-4299-91aa-fd24fb59f6cf
+DTSTART;VALUE=DATE:20191014
+DTEND;VALUE=DATE:20191026
+DESCRIPTION:Herbstferien 2019 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Herbstferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190801T132100Z
+UID:68ff5777-6eb2-44ba-9180-4b30302ab14b
+DTSTART;VALUE=DATE:20191221
+DTEND;VALUE=DATE:20200104
+DESCRIPTION:Weihnachtsferien 2019 in Sachsen - Importiert von Ferienwiki.de
+SUMMARY:Weihnachtsferien
+END:VEVENT
+END:VCALENDAR
