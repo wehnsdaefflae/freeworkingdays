@@ -76,6 +76,11 @@ def gaussian(x, mu, sig):
     return 1. / (sqrt(2. * pi) * sig) * exp(-pow((x - mu) / sig, 2.) / 2.)
 
 
+def gaussian_blur(time_series: List[float], window_size: int = 5) -> List[float]:
+    # add value based on gaussian of distance to center
+    pass
+
+
 def blur_time_series(time_series: List[float], window_size: int = 5) -> List[float]:
     l_seq = len(time_series)
     new_series = [.0 for _ in time_series]
