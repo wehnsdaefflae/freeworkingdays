@@ -149,26 +149,31 @@ def plot_holiday_density_per_weekday(calendar: Calendar, time_start: Optional[da
     pyplot.show()
 
 
+def _main():
+    sax19 = "https://www.ferienwiki.de/exports/feiertage/2023/de/sachsen"
+    sax20 = "https://www.ferienwiki.de/exports/feiertage/2024/de/sachsen"
 
-def main():
-    sax19 = "https://www.ferienwiki.de/exports/feiertage/2019/de/sachsen"
-    sax20 = "https://www.ferienwiki.de/exports/feiertage/2020/de/sachsen"
+    # sax19 = "https://www.ferienwiki.de/exports/feiertage/2019/de/sachsen"
+    # sax20 = "https://www.ferienwiki.de/exports/feiertage/2020/de/sachsen"
 
     calendar_urls = sax19, sax20
 
     calendars = tuple(get_calendar_from_url(_url) for _url in calendar_urls)
     calendar_full = merge_events(*calendars)
 
-    start_date = datetime.date(2019, 10, 1)
+    start_date = datetime.date(2023, 10, 19)
     # end_date  = datetime.date(2020, 5, 1)
-    end_date = datetime.date(2020, 10, 1)
+    end_date = datetime.date(2024, 12, 31)
 
     plot_holiday_density_per_weekday(calendar_full, time_start=start_date, time_end=end_date)
 
 
-def _main():
-    sax19 = "https://www.ferienwiki.de/exports/feiertage/2019/de/sachsen"
-    sax20 = "https://www.ferienwiki.de/exports/feiertage/2020/de/sachsen"
+def main():
+    # sax19 = "https://www.ferienwiki.de/exports/feiertage/2019/de/sachsen"
+    # sax20 = "https://www.ferienwiki.de/exports/feiertage/2020/de/sachsen"
+
+    sax19 = "https://www.ferienwiki.de/exports/feiertage/2023/de/sachsen"
+    sax20 = "https://www.ferienwiki.de/exports/feiertage/2024/de/sachsen"
 
     bav19 = "https://www.ferienwiki.de/exports/feiertage/2019/de/bayern"
     bav20 = "https://www.ferienwiki.de/exports/feiertage/2020/de/bayern"
@@ -179,8 +184,8 @@ def _main():
     calendars = tuple(get_calendar_from_url(_url) for _url in calendar_urls)
     calendar_full = merge_events(*calendars)
 
-    start_date = datetime.date(2019, 10, 1)
-    end_date = datetime.date(2020, 5, 1)
+    start_date = datetime.date(2023, 10, 19)
+    end_date = datetime.date(2024, 12, 31)
 
     # start_date = datetime.date(2018, 3, 1)
     # end_date = datetime.date(2019, 10, 1)
